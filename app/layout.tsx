@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: "Next Zero",
   description:
     "An opinionated, stripped-down Next.js starter with zero bloat - clean, minimal, production-ready foundation.",
+  openGraph: {
+    title: "Next Zero",
+    description:
+      "An opinionated, stripped-down Next.js starter with zero bloat - clean, minimal, production-ready foundation.",
+  },
 };
 
 export default function RootLayout({
